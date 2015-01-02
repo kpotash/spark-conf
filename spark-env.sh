@@ -44,4 +44,7 @@
 
 export JAVA_HOME=/usr/local/java/jdk1.7.0_72
 export SPARK_WORKER_MEMORY=256m
-#export SPARK_DRIVER_MEMORY=256m
+export SPARK_WORKER_CORES=2
+
+#export SPARK_CONF_DIR=conf
+export SPARK_LOG_DIR=/home/ovik/logs
